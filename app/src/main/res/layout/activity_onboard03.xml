@@ -5,31 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".OnboardActivity02">
-
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#FFFFFF"
-        android:text="Skip"
-        android:textColor="#38B5FE"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+    tools:context=".OnboardActivity03">
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#38B6FF"
-        android:text="Next"
+        android:text="Get Started"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -41,22 +24,26 @@
         app:rippleColor="#1E42E8" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="323dp"
-        android:layout_height="562dp"
+        android:id="@+id/imageView4"
+        android:layout_width="344dp"
+        android:layout_height="648dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="128dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.011"
-        app:srcCompat="@drawable/on02" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/on03" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView6"
+        android:text="Get Started With Our Easy-To-Use Task Manager Today."
         android:layout_width="244dp"
         android:layout_height="130dp"
         android:gravity="center"
-        android:text="Master Your Tasks Effortlessly With Our App's Intuitive Features."
         android:textColor="#000A39"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -65,5 +52,5 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.742" />
+        app:layout_constraintVertical_bias="0.742" />/>
 </androidx.constraintlayout.widget.ConstraintLayout>
