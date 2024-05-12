@@ -4,43 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity0">
+    tools:context=".RegisterActivity">
 
     <EditText
         android:id="@+id/usernameEditText"
-        android:layout_width="300dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="241dp"
-        android:layout_marginBottom="41dp"
+        android:layout_width="306dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginBottom="26dp"
         android:hint="Username"
         android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/passwordEditText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/passwordEditText"
-        android:layout_width="313dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="41dp"
-        android:layout_marginBottom="38dp"
+        android:layout_width="302dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="40dp"
         android:hint="Password"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/loginButton"
+        app:layout_constraintBottom_toTopOf="@+id/registerButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/usernameEditText" />
 
     <Button
-        android:id="@+id/loginButton"
+        android:id="@+id/registerButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="161dp"
-        android:layout_marginTop="17dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginBottom="273dp"
-        android:text="Login"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="288dp"
+        android:text="Register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

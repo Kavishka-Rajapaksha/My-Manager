@@ -18,7 +18,7 @@ class OnboardActivity03 : AppCompatActivity() {
     }
 
     private fun navigateToLoginActivity() {
-        val intent = Intent(this, loginActivity::class.java)
+        val intent = Intent(this, RegisterActivity::class.java)
         startActivity(intent)
         finish() // Finish this activity to prevent going back to it
     }
